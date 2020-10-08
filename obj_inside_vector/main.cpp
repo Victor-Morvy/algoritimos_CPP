@@ -58,23 +58,49 @@ main()
     //unsigned int lastAddress;
     //Carro* lastCar;
 
+    cout << "imprimindo com iterator" << endl;
+    for(auto iit:*carros)
+    {
+        cout << (*iit).getAlgo() << endl;
+
+    }
+
+
+    cout << "\ndeletando com for:" << endl;
+    for (it = carros->begin(); it != carros->end(); it++)
+    {
+        //cout << (*it)->getAlgo() << endl;
+        delete (*it);
+        //lastAddress = (unsigned int)*it;
+    }
+    /*
+    cout << "\nTAM VETOR: " << carros->size() << endl << endl;
+
+
     for (it = carros->begin(); it != carros->end(); it++)
     {
         cout << (*it)->getAlgo() << endl;
-
-        //lastAddress = (unsigned int)*it;
-    }
-
-    cout << "\nTAM VETOR: " << carros->size() << endl << endl;
-
-    for (it = carros->begin(); it != carros->end(); it++)
-    {
         delete *it;
 
         //lastAddress = (unsigned int)*it;
     }
 
+    for (it = carros->begin(); it != carros->end(); it++)
+    {
+        cout << (*it)->getAlgo() << endl;
+        delete *it;
+
+        //lastAddress = (unsigned int)*it;
+    }
+    */
+    carros->clear();
     delete carros;
+    carros = nullptr;
+
+
+
+
+    //cout << "\nTAM VETOR: " << carros->size() << endl << endl;
 
     //cout << "0x" << hex << carros << endl;
 
