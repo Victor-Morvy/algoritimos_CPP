@@ -3,6 +3,7 @@
 
 using namespace std;
 
+//função para retornar o iterator do vetor alocado
 vector<string> *criaVetor(string name, string path)
 {
     vector<string> * p = new vector<string>;
@@ -13,12 +14,14 @@ vector<string> *criaVetor(string name, string path)
 
 }
 
+//adiciona vetor dentro de outro vetor
 void addVector(string name, string path, vector<vector<string>> &vetor)
 {
     vector<string> *tmp = criaVetor(name, path);
     vetor.push_back(*tmp);
 }
 
+//remove vetor dentro de outro vetor, pelo índice
 void removeVector(int index, vector<vector<string>> &vetor)
 {
     delete &vetor[index];
