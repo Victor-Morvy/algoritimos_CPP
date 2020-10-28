@@ -2,6 +2,7 @@
 #include <map>
 #include <iterator>
 
+//Classe Teste
 class Teste
 {
 
@@ -18,12 +19,14 @@ public:
 
 };
 
+//Definindo destrutor da classe Teste
 Teste::
 ~Teste()
 {
     std::cout << "Objeto destruido" << std::endl;
 }
 
+//struct DOIDERA herdando std::map e a classe Teste
 struct DOIDERA : std::map<std::string, int>, Teste
 {
     float mexerica;
@@ -40,6 +43,7 @@ struct DOIDERA : std::map<std::string, int>, Teste
 
 };
 
+//instanciando iterator para a struct DOIDERA
 DOIDERA::iterator itD;
 
 int main()
