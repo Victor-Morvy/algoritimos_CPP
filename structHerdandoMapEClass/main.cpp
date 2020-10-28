@@ -26,8 +26,8 @@ Teste::
     std::cout << "Objeto destruido" << std::endl;
 }
 
-//struct DOIDERA herdando std::map e a classe Teste
-struct DOIDERA : std::map<std::string, int>, Teste
+//struct Vim herdando std::map e a classe Teste
+struct Vim : std::map<std::string, int>, Teste
 {
     float mexerica;
 
@@ -43,16 +43,16 @@ struct DOIDERA : std::map<std::string, int>, Teste
 
 };
 
-//instanciando iterator para a struct DOIDERA
-DOIDERA::iterator itD;
+//instanciando iterator para a struct Vim
+Vim::iterator itD;
 
 int main()
 {
 
-    //Declarando a struct DOIDERA
-    DOIDERA d;
+    //Declarando a struct Vim
+    Vim d;
 
-    //Chamando valores definidas e instanciadas na classe, Teste herdada na struct DOIDERA
+    //Chamando valores definidas e instanciadas na classe, Teste herdada na struct Vim
     std::cout << d.value << " " << d.nome << std::endl << std::endl;
 
     //Dando valores de map para o objeto
@@ -69,10 +69,10 @@ int main()
         std::cout << itD->first << " | " << itD->second << std::endl;
     }
 
-    //setando valor com o método da struct DOIDERA
+    //setando valor com o método da struct Vim
     d.setValue(7);
 
-    //printando valor com o método da struct DOIDERA
+    //printando valor com o método da struct Vim
     std::cout << d.getValue() << std::endl;
 
     //procurando o iterator de key 'Ronaldo'
