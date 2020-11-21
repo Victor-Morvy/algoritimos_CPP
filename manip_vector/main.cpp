@@ -17,6 +17,7 @@ void addVector(string name, string path, vector<vector<string>> &vetor)
 {
     vector<string> *tmp = criaVetor(name, path);
     vetor.push_back(*tmp);
+    delete tmp;
 }
 
 void removeVector(int index, vector<vector<string>> &vetor)
