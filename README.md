@@ -17,12 +17,12 @@ alocando vetores e deletando-os
 
 
 ### singleton, aplicando de forma simples
-- Link: https://localhost
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/singleton/main.cpp
 
 
 ### retorno de função dinâmicamente alocada
-- Link: https://localhost
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/retorno_de_ponteiro/main.cpp
 
 
 ### manipulando vetor dentro de outro vetor alocado dinâmicamente
-- Link: https://localhost
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/manip_vector/main.cpp
