@@ -26,3 +26,7 @@ alocando vetores e deletando-os
 
 ### manipulando vetor dentro de outro vetor alocado dinâmicamente
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/manip_vector/main.cpp
+
+
+### Algorítimo A*(star) pathfinding
+- Link: https://github.com/Victor-Morvy/AStar_CPP
