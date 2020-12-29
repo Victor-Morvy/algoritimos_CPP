@@ -41,7 +41,7 @@ bool Criptografar()
 
     printf("\n%d\n", TEXTO_CRIPT[0]);
 
-    arquivo = fopen("C:\\Users\\PICHAU\\Desktop\\Faculdade de Ciencias da computação\\testes\\criptografia\\criptografado.txt", "w");
+    arquivo = fopen("criptografado.txt", "w");
     if(arquivo == NULL)
     {
         printf("\n\nErro ao criar arquivo!\n\n");
@@ -72,7 +72,7 @@ bool descriptografar()
     int pos_chave;
     int pos_texto;
 
-    arquivo = fopen("C:\\Users\\PICHAU\\Desktop\\Faculdade de Ciencias da computação\\testes\\criptografia\\criptografado.txt", "r");
+    arquivo = fopen("criptografado.txt", "r");
 
     limparTexto();
 
@@ -185,7 +185,7 @@ void receberTexto(char tipo[])
         printf("\n\nImportando arquivo...\n\n");
 
 
-        arquivo = fopen("C:\\Users\\PICHAU\\Desktop\\Faculdade de Ciencias da computação\\testes\\criptografia\\original.txt", "r");
+        arquivo = fopen("original.txt", "r");
         if(arquivo == NULL)
             printf("\n\n Erro ao ler arquivo!\n\n");
         else
