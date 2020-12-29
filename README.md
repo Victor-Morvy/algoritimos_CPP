@@ -34,3 +34,7 @@ alocando vetores e deletando-os
 ### Criptografia
 Criptografando e descriptografando textos
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/criptografia/main.cpp
+
+### Números aleatórios sem repetir
+Cria um vetor de números aleatórios sem repeti-los
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/num_aleatorio_nao_repetidos/main.cpp
