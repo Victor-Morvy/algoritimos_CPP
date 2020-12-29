@@ -1,6 +1,6 @@
 # ALGORITMOS E CÓDIGOS EM C++
 
-destruindo objetos alocados em vetor alocados em função:
+### destruindo objetos alocados em vetor alocados em função:
 
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/obj_inside_vector/main.cpp
 
@@ -30,3 +30,7 @@ alocando vetores e deletando-os
 
 ### Algorítimo A*(star) pathfinding
 - Link: https://github.com/Victor-Morvy/AStar_CPP
+
+### Criptografia
+Criptografando e descriptografando textos
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/criptografia/main.cpp
