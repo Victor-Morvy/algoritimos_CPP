@@ -30,3 +30,7 @@ alocando vetores e deletando-os
 
 ### Algorítimo A*(star) pathfinding
 - Link: https://github.com/Victor-Morvy/AStar_CPP
+
+### Criptografia
+Criptografando e descriptografando textos
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/criptografia/main.cpp
