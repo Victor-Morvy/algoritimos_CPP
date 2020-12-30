@@ -40,5 +40,5 @@ Cria um vetor de números aleatórios sem repeti-los
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/num_aleatorio_nao_repetidos/main.cpp
 
 ### Algorítmo de Euclides
-Acha o caso base recursivamente, isso é, acha o maior número divisor de dois valores
+Acha o caso base recursivamente, isso é, acha o maior número divisível por dois valores
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/caso_base/main.cpp
