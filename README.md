@@ -42,3 +42,6 @@ Cria um vetor de números aleatórios sem repeti-los
 ### Algorítmo de Euclides
 Acha o caso base recursivamente, isso é, acha o maior número divisível por dois valores
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/caso_base/main.cpp
+
+### Funções Virtuais
+- Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/funcao_virtual/main.cpp
