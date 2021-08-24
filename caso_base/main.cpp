@@ -1,6 +1,8 @@
 #include <iostream>
 #include <tgmath.h>
 
+//visto no livro "Entendendo algoritmos", pág. 60 de Aditya Y. Bhargava - ISBN 978-85-7522-563-9
+
 using namespace std;
 
 int casoBase(int X, int Y)
