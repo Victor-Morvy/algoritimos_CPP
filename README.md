@@ -45,3 +45,6 @@ Acha o caso base recursivamente, isso é, acha o maior número divisível por do
 
 ### Funções Virtuais
 - Link: https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/funcao_virtual/main.cpp
+
+### Argumentos infinitos em uma função CPP
+- Link : https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/ifiniteArguments/main.cpp
