@@ -11,7 +11,11 @@ void printar()
 template<typename Head, typename ... Tail>
 void printar(Head param, const Tail&... rest)
 {
-	std::cout << param << " ";
+	
+	std::cout << param << " " << std::endl;
+	//char word[] = "Uma mistura de";
+	//std::cout << param << " : " << sizeof(word) << std::endl;
+	
 	//it will call recursivelly
 	output( rest... );	
 }
