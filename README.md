@@ -48,3 +48,6 @@ Acha o caso base recursivamente, isso é, acha o maior número divisível por do
 
 ### Argumentos infinitos em uma função CPP
 - Link : https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/ifiniteArguments/main.cpp
+
+### Dynamic cast test
+- Link : https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/dynamic_cast_test/main.cpp
