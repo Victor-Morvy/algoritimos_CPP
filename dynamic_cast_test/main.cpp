@@ -11,7 +11,7 @@ enum PET_TYPE{
 
 class AbstractPet{
 public:
-    AbstractPet( PET_TYPE type ):_type(type){}
+//    AbstractPet( PET_TYPE type ):_type(type){}
 
     virtual void doAction() = 0;
 
@@ -22,7 +22,7 @@ private:
 
 class DogClass : public AbstractPet{
 public:
-    DogClass():AbstractPet(PET_TYPE::DOG){}
+//    DogClass():AbstractPet(PET_TYPE::DOG){}
 
     virtual void doAction(){
         std::cout << "Dog's barking" << std::endl;
@@ -31,7 +31,7 @@ public:
 
 class HorseClass : public AbstractPet{
 public:
-    HorseClass():AbstractPet(PET_TYPE::HORSE){}
+//    HorseClass():AbstractPet(PET_TYPE::HORSE){}
 
     virtual void doAction(){
         std::cout << "Horse's neighing" << std::endl;
@@ -40,7 +40,7 @@ public:
 
 class CatClass : public AbstractPet{
 public:
-    CatClass():AbstractPet(PET_TYPE::CAT){}
+//    CatClass():AbstractPet(PET_TYPE::CAT){}
 
     virtual void doAction(){
         std::cout << "Cat's rowring" << std::endl;
