@@ -51,3 +51,6 @@ Acha o caso base recursivamente, isso é, acha o maior número divisível por do
 
 ### Dynamic cast test
 - Link : https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/dynamic_cast_test/main.cpp
+
+### Vetor recebendo método de objeto
+- Link : https://github.com/Victor-Morvy/algoritimos_CPP/blob/main/vetor_recebendo_method_obj/main.cpp
