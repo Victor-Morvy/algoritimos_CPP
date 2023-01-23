@@ -5,7 +5,6 @@ using namespace std;
 class tryCall
 {
 public:
-    tryCall(){};
     virtual void Call() = 0;
 };
 
